@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import {MdKeyboardArrowRight, MdArrowForward} from 'react-icons/md';
+import {Link} from 'react-router-dom'
 
 export const HeroContainer = styled.div`
 background: #0c0c0c;
@@ -22,7 +23,24 @@ z-index: 1;
     z-index: 2;
 }
 `
-
+export const ButtonLink = styled(Link)`
+border-radius: 50px;
+background: #01bf71;
+white-space: nowrap;
+padding: 10px 22px;
+color: #010606;
+font-size: 26px;
+outline: none;
+border: none;
+cursor: pointer;
+transition: all 0.2s ease-in-out;
+text-decoration: none;
+&:hover {
+  color: #010606;
+  background: #fff;
+  transition: 0.3s ease-out
+}
+`
 
 export const HeroBackground = styled.div`
 position: absolute;
@@ -33,6 +51,7 @@ left: 0;
 width: 100%;
 height: 100%;
 overflow: hidden;
+background: #232a34;
 `
 
 export const VideoBackground = styled.video`
@@ -94,10 +113,12 @@ align-items: center;
 export const ArrowForward = styled(MdArrowForward)`
 margin-left: 8px;
 font-size: 20px;
+top: 200px;
 `
 
 export const ArrowRight = styled(MdKeyboardArrowRight)`
 margin-left: 8px;
 font-size: 20px;
+
 `
 

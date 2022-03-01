@@ -1,7 +1,8 @@
 import React, {useState} from 'react'
-import {HeroContainer, HeroBackground, VideoBackground, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight } from "./HeroElements";
+import {ButtonLink, HeroContainer, HeroBackground, VideoBackground, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight } from "./HeroElements";
 import Video from '../../videos/video.mp4';
 import {Button} from '../ButtonElement';
+
 
 const HeroSection = () => {
 
@@ -19,14 +20,14 @@ const HeroSection = () => {
             <HeroH1>Make Yourself Shine Brighter Than Diamonds</HeroH1>
             <HeroP>Sign up and receive 100$ discount on the newest products from series "Brilliant Secret" </HeroP>
             <HeroBtnWrapper>
-                <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'
+                <ButtonLink to="/signin" color="green" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'
                 smooth={true}
                 duration={500}
                 spy={true}
                 exact='true'
                 offset={-80}>
                     Get started {hover ? <ArrowForward /> : <ArrowRight />}
-                </Button>
+                </ButtonLink>
             </HeroBtnWrapper>
         </HeroContent>
     </HeroContainer>

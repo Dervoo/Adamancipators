@@ -47,14 +47,14 @@ export const homeObjThree = {
     buttonLabel: 'Learn More',
     imgStart: false,
     img: Icon3,
-    alt: 'Earing',
+    alt: 'Earring',
     dark: true,
     primary: true,
     darkText: true
 };
 
 export const homeObjFour = {
-    id: 'necklaces', 
+    id: 'signup', 
     lightBg: true,
     lightText: false,
     lightTextDesc: false,

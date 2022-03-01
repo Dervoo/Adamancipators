@@ -1,41 +1,51 @@
 import styled from 'styled-components'
 
 export const ServicesContainer = styled.div`
-height: 800px;
+height: 1500px;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 background: #010606;
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 2000px) {
     height: 1100px;
+    display: column;
 }
 
-@media screen and (max-width: 480px) {
-    height: 1300px;
+@media screen and (max-width: 1600px) {
+    height: 1700px;
+    display: grid;
+}
+
+@media screen and (max-width: 1130px) {
+    height: 2000px;
+    display: grid;
 }
 `
 
 
 export const ServicesWrapper = styled.div`
-max-width: 2000px;
+justify-content: center;
+z-index: auto;
+max-width: 50px;
 margin: 0 auto;
 display: flex;
 grid-template-columns; 1fr 1fr 1fr;
-align-items: center;
 grid-gap: 16px;
-padding: 0 50px;
+padding: 0 100px;
 
-@media screen and (max-width: 1000px) {
-    grid-template-columns: 1fr;
-    display: column;
+
+
+@media screen and (max-width: 1600px) {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1130px) {
     grid-template-columns: 1fr;
     padding: 0 20px;
-    display: column;
+    display: grid;
 }
 `
 
@@ -43,12 +53,12 @@ padding: 0 50px;
 export const ServicesCard = styled.div`
 background: #fff;
 display: flex;
-flex-direction: row;
+flex-direction: column;
 justify-content: flex-start;
 align-items: center;
 border-radius: 10px;
 max-height: 1000px;
-padding: 30px;
+padding: 70px;
 box-shadow: 0 1px 3px rgba(0,0,0,0.2);
 transition: all 0.2s ease-in-out;
 
@@ -61,7 +71,7 @@ transition: all 0.2s ease-in-out;
 
 export const ServicesIcon = styled.img`
 height: 350px;
-width: 160px;
+width: 400px;
 margin-bottom: 10px;
 `
 

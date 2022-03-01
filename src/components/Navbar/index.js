@@ -60,7 +60,7 @@ const toggleHome = () => {
                         >Earrings</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="collections"
+                        <NavLinks path="/collections" to="collections"
                         smooth={true}
                         duration={500}
                         spy={true}

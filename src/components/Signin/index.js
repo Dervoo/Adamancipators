@@ -3,7 +3,7 @@ import { Container, FormWrap, Icon, FormContent, Form, FormH1, FormLabel, FormIn
 
 const Signin = () => {
   return (
-    <Container>
+    <Container id="/signin">
         <FormWrap>
             <Icon to="/">
                 Adamancipator
@@ -19,6 +19,7 @@ const Signin = () => {
                     <FormInput type='password' required />
                     <FormButton type='submit'>Continue</FormButton>
                     <Text>Forgot Password?</Text>
+                    <Text>Create New Account</Text>
                 </Form>
             </FormContent>
         </FormWrap>
