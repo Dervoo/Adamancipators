@@ -6,6 +6,10 @@ This project was bootstrapped with create-react-app.
 
 In the project directory, you can run:
 
+## Main Development
+
+In this project I upgraded my JavaScript skills in pair with CSS styled knowledge.
+
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -13,6 +17,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+## Image
+
+![Adamancipator2](https://user-images.githubusercontent.com/30512638/156727664-8bed8687-4630-4861-a17c-f180063f9f0a.jpg)
+
 
 ### `npm test`
 
